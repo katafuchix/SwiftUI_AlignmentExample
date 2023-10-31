@@ -14,10 +14,7 @@ struct HorizontalAlignmentModel {
 struct VStackExampleView: View {
     
     let alignments: [HorizontalAlignments] = [.leading, .center, .trailing]
-    
-    //let alignments: [TextAlignment] = [.leading, .center, .trailing]
     @State private var alignment = HorizontalAlignments.leading
-    
     
     enum HorizontalAlignments: CaseIterable {
         case leading
@@ -50,7 +47,6 @@ struct VStackExampleView: View {
                         }
                 }.pickerStyle(WheelPickerStyle())
             }
-            
         }
     }
 }

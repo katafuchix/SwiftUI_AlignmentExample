@@ -12,6 +12,8 @@
 		313E1BD32AF01477006907BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 313E1BD22AF01477006907BF /* Assets.xcassets */; };
 		313E1BD62AF01477006907BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 313E1BD52AF01477006907BF /* Preview Assets.xcassets */; };
 		313E1BDD2AF01693006907BF /* VStackExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313E1BDC2AF01693006907BF /* VStackExampleView.swift */; };
+		313E1BDF2AF0B764006907BF /* TextAlignmentExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313E1BDE2AF0B764006907BF /* TextAlignmentExampleView.swift */; };
+		313E1BE12AF0C489006907BF /* HStackExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313E1BE02AF0C489006907BF /* HStackExampleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		313E1BD22AF01477006907BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		313E1BD52AF01477006907BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		313E1BDC2AF01693006907BF /* VStackExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackExampleView.swift; sourceTree = "<group>"; };
+		313E1BDE2AF0B764006907BF /* TextAlignmentExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAlignmentExampleView.swift; sourceTree = "<group>"; };
+		313E1BE02AF0C489006907BF /* HStackExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackExampleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			children = (
 				313E1BCE2AF01476006907BF /* SwiftUI_AlignmentExampleApp.swift */,
 				313E1BD02AF01476006907BF /* ContentView.swift */,
+				313E1BDE2AF0B764006907BF /* TextAlignmentExampleView.swift */,
 				313E1BDC2AF01693006907BF /* VStackExampleView.swift */,
+				313E1BE02AF0C489006907BF /* HStackExampleView.swift */,
 				313E1BD22AF01477006907BF /* Assets.xcassets */,
 				313E1BD42AF01477006907BF /* Preview Content */,
 			);
@@ -140,7 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				313E1BDF2AF0B764006907BF /* TextAlignmentExampleView.swift in Sources */,
 				313E1BD12AF01476006907BF /* ContentView.swift in Sources */,
+				313E1BE12AF0C489006907BF /* HStackExampleView.swift in Sources */,
 				313E1BDD2AF01693006907BF /* VStackExampleView.swift in Sources */,
 				313E1BCF2AF01476006907BF /* SwiftUI_AlignmentExampleApp.swift in Sources */,
 			);

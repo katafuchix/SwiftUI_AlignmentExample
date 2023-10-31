@@ -15,14 +15,15 @@ struct ContentView: View {
             NavigationStack {
                 List {
                     Section(header: Text("Views")) {
-                        /*
-                         NavigationLink("Alignment Example", destination: AlignmentExampleView())
-                         */
+                        
+                        NavigationLink("TextAlignment Example", destination: TextAlignmentExampleView())
+                        
                         NavigationLink("VStack Example", destination: VStackExampleView())
                         
-                        /*
-                         NavigationLink("HStack Example", destination: HStackExampleView())
+                        
+                        NavigationLink("HStack Example", destination: HStackExampleView())
                          
+                        /*
                          NavigationLink("ZStackExample", destination: ZStackExampleView())
                          */
                     }
