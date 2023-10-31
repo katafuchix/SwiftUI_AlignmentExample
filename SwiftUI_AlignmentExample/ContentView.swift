@@ -20,6 +20,8 @@ struct ContentView: View {
                         
                         NavigationLink("Alignment Picker Example", destination: AlignmentPickerExampleView())
                         
+                        NavigationLink("Base Line Alignment Example", destination: BaseLineAlignmentExampleView())
+                        
                         NavigationLink("TextAlignment Example", destination: TextAlignmentExampleView())
                         
                         NavigationLink("VStack Example", destination: VStackExampleView())

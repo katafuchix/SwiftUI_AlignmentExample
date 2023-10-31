@@ -16,6 +16,7 @@
 		313E1BE12AF0C489006907BF /* HStackExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313E1BE02AF0C489006907BF /* HStackExampleView.swift */; };
 		313E1BE32AF0D1E8006907BF /* AlignmentExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313E1BE22AF0D1E8006907BF /* AlignmentExampleView.swift */; };
 		313E1BE52AF0D5DC006907BF /* AlignmentPickerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313E1BE42AF0D5DC006907BF /* AlignmentPickerExampleView.swift */; };
+		31FCC0302AF103FF0097FC65 /* BaseLineAlignmentExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FCC02F2AF103FF0097FC65 /* BaseLineAlignmentExampleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		313E1BE02AF0C489006907BF /* HStackExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackExampleView.swift; sourceTree = "<group>"; };
 		313E1BE22AF0D1E8006907BF /* AlignmentExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentExampleView.swift; sourceTree = "<group>"; };
 		313E1BE42AF0D5DC006907BF /* AlignmentPickerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentPickerExampleView.swift; sourceTree = "<group>"; };
+		31FCC02F2AF103FF0097FC65 /* BaseLineAlignmentExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseLineAlignmentExampleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				313E1BD02AF01476006907BF /* ContentView.swift */,
 				313E1BE22AF0D1E8006907BF /* AlignmentExampleView.swift */,
 				313E1BE42AF0D5DC006907BF /* AlignmentPickerExampleView.swift */,
+				31FCC02F2AF103FF0097FC65 /* BaseLineAlignmentExampleView.swift */,
 				313E1BDE2AF0B764006907BF /* TextAlignmentExampleView.swift */,
 				313E1BDC2AF01693006907BF /* VStackExampleView.swift */,
 				313E1BE02AF0C489006907BF /* HStackExampleView.swift */,
@@ -158,6 +161,7 @@
 				313E1BE32AF0D1E8006907BF /* AlignmentExampleView.swift in Sources */,
 				313E1BDD2AF01693006907BF /* VStackExampleView.swift in Sources */,
 				313E1BCF2AF01476006907BF /* SwiftUI_AlignmentExampleApp.swift in Sources */,
+				31FCC0302AF103FF0097FC65 /* BaseLineAlignmentExampleView.swift in Sources */,
 				313E1BE52AF0D5DC006907BF /* AlignmentPickerExampleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

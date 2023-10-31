@@ -1,5 +1,5 @@
 //
-//  AlignmentPickerExampleView.swift
+//  BaseLineAlignmentExampleView.swift
 //  SwiftUI_AlignmentExample
 //
 //  Created by cano on 2023/10/31.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct AlignmentPickerExampleView: View {
+struct BaseLineAlignmentExampleView: View {
     
     let alignments: [Alignments] = [
             .topLeading,
@@ -68,26 +68,36 @@ struct AlignmentPickerExampleView: View {
     }
     
     var body: some View {
-        VStack() {
-            HStack() {
-                Text(String(describing: alignment))
-                    .padding(4)
-                    .background(Color.gray)
-                    .foregroundColor(Color.white)
-                    .frame(width: 200, height: 200, alignment: alignment.value)
-                    .border(Color.black)
+        VStack {
+            HStack {
+                SimpleView()
+                    .frame(alignment: alignment.value)
             }
+            //.border(Color.red)
             
             Picker("Alignment", selection: $alignment) {
                 ForEach(alignments, id: \.self) { alignment in
                         Text(String(describing: alignment))
                     }
             }.pickerStyle(WheelPickerStyle())
-            
         }
     }
 }
 
+struct SimpleView: View{
+    var body: some View {
+        
+            Image("cat")
+            Text("Use vertical alignment guides to position views relative to one another vertically.")
+                .frame(width: 240)
+        /*
+        Color.red.frame(height: 1)
+        Text("Last Text Baseline").font(.title).border(.gray)
+        Color.red.frame(height: 1)
+         */
+    }
+}
+
 #Preview {
-    AlignmentPickerExampleView()
+    BaseLineAlignmentExampleView()
 }
