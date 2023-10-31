@@ -16,6 +16,10 @@ struct ContentView: View {
                 List {
                     Section(header: Text("Views")) {
                         
+                        NavigationLink("Alignment Example", destination: AlignmentExampleView())
+                        
+                        NavigationLink("Alignment Picker Example", destination: AlignmentPickerExampleView())
+                        
                         NavigationLink("TextAlignment Example", destination: TextAlignmentExampleView())
                         
                         NavigationLink("VStack Example", destination: VStackExampleView())

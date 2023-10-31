@@ -41,7 +41,7 @@ struct VStackExampleView: View {
                 
             }
             VStack {
-                Picker("Pokemon", selection: $alignment) {
+                Picker("HorizontalAlignment", selection: $alignment) {
                     ForEach(alignments, id: \.self) { alignment in
                             Text(String(describing: alignment))
                         }
